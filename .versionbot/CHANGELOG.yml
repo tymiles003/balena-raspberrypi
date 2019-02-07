@@ -1,4 +1,45 @@
 - commits:
+    - subject: balenaFin v1.1.0 compatibility
+      hash: 5407942bd07e1417b97bbd0440489d9d2f21c1f7
+      body: >
+        1. Updates the balenaFin DT overlay with the following changes:
+
+          * marks as non-removable the WiFi/BT module - otherwise it is continuously probed
+          * sd8887 WiFi driver configuration is now part of the DT
+          * LED driver config for balenaFin v1.1.0
+          * i2c gpio driver uses open-drain configuration - fixes the attached RTC and LED
+
+        2. Disabling power saving mode is moved away from NetworkManager to the
+        WiFi driver config
+
+
+        3. sd8887 WiFi driver and firmware updated to version 189
+
+
+        4. pca963x LED driver properly initializes its MODE2 register (fixes the
+        red light)
+
+
+        5. Brings back the ndo_do_ioctl fallback, so that iwpriv commands are
+        functioning - reverts
+
+        https://github.com/raspberrypi/linux/commit/8bfb3676606454ffec836f56c5dc3e69dfc0956a
+
+
+        6. Changes a couple of sd8887 WiFi driver error log messages to msg
+        level (those are harmless, but users get confused)
+
+
+        Fixes #288
+      footer:
+        Changelog-entry: balenaFin v1.1.0 compatibility
+        changelog-entry: balenaFin v1.1.0 compatibility
+        Signed-off-by: Zahari Petkov <zahari@balena.io>
+        signed-off-by: Zahari Petkov <zahari@balena.io>
+      author: Zahari Petkov
+  version: 2.29.2+rev3
+  date: 2019-02-07T11:05:18.669Z
+- commits:
     - subject: Update bcm2835-bootfiles for CM3+ support
       hash: b9d2dd8a5362a300ceed1b20b13fca20910890c0
       body: |

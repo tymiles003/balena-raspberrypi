@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.29.2+rev3
+## (2019-02-07)
+
+* balenaFin v1.1.0 compatibility [Zahari Petkov]
+
 # v2.29.2+rev2
 ## (2019-02-04)
 

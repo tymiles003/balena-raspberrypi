@@ -84,5 +84,5 @@ RESIN_CONFIGS[rpi_watchdog] = " \
 "
 RESIN_CONFIGS_append = " pca9633_led_driver"
 RESIN_CONFIGS[pca9633_led_driver] = " \
-    CONFIG_LEDS_PCA963X=y \
+    CONFIG_LEDS_PCA963X=m \
     "

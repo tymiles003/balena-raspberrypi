@@ -11,6 +11,8 @@ do_deploy_append() {
     fi
     # Enable audio (loads snd_bcm2835)
     echo "dtparam=audio=on" >> ${DEPLOYDIR}/bcm2835-bootfiles/config.txt
+    # Enable i2c0
+    echo "dtoverlay=i2c0-bcm2708" >> ${DEPLOYDIR}/bcm2835-bootfiles/config.txt
 }
 
 do_deploy_append_fincm3() {

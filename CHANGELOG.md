@@ -1,6 +1,13 @@
 Change log
 -----------
 
+# v2.38.3+rev5
+## (2019-07-26)
+
+* meta-raspberrypi: Update to latest commit on warrior [Sebastian Panceac]
+* linux-raspberrypi: Use version from BSP layer [Sebastian Panceac]
+* u-boot: Use version dictated by meta-raspberrypi BSP layer [Sebastian Panceac]
+
 # v2.38.3+rev4
 ## (2019-07-15)
 

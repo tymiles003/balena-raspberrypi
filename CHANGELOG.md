@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.41.0+rev6
+## (2019-08-30)
+
+* Update the Balena Fin WiFi driver in order to fix AP mode crash [Florin Sarbu]
+
 # v2.41.0+rev5
 ## (2019-08-29)
 

@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.41.1+rev5
+## (2019-09-12)
+
+* Disable the kernel simple framebuffer driver (kernel 4.19) so we have working graphics [Florin Sarbu]
+
 # v2.41.1+rev4
 ## (2019-09-09)
 

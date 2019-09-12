@@ -1,4 +1,25 @@
 - commits:
+    - subject: >-
+        Disable the kernel simple framebuffer driver (kernel 4.19) so we have
+        working graphics
+      hash: 5c4ac59c86b4b8177a3818bb98d848d5cbdcd5c3
+      body: |
+        We need to disable this kernel driver in order to avoid concurrent
+        access to the GPU from both this driver and the bcm2708_fb driver.
+        (See https://github.com/raspberrypi/linux/issues/3139)
+      footer:
+        Changelog-entry: >-
+          Disable the kernel simple framebuffer driver (kernel 4.19) so we have
+          working graphics
+        changelog-entry: >-
+          Disable the kernel simple framebuffer driver (kernel 4.19) so we have
+          working graphics
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.41.1+rev5
+  date: 2019-09-12T12:48:47.430Z
+- commits:
     - subject: Update the BSP layer to latest warrior so we have kernel 4.19.71
       hash: c101fb8eaadc6d52aded2ef654d947f985a26cf5
       body: |

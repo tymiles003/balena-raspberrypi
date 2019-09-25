@@ -1,4 +1,16 @@
 - commits:
+    - subject: test entry
+      hash: 717e35b01ad6a84ceb6277fe4f48956ee5a1ca93
+      body: ''
+      footer:
+        Changelog-entry: test entry
+        changelog-entry: test entry
+        Signed-off-by: Theodor Gherzan <theodor@balena.io>
+        signed-off-by: Theodor Gherzan <theodor@balena.io>
+      author: Theodor Gherzan
+  version: 2.43.0+rev2
+  date: 2019-09-25T07:49:56.269Z
+- commits:
     - subject: Do not enable the vc4-kms-v3d overlay for non-64 bits machines devices
       hash: e2b92c3926e389083f58bc8cf7d4a0476f29ce5b
       body: |

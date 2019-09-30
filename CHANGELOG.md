@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.43.0+rev2
+## (2019-09-30)
+
+* update balena-yocto-scripts and local.conf sample for supervisor tags [Gergely Imreh]
+
 # v2.43.0+rev1
 ## (2019-09-16)
 

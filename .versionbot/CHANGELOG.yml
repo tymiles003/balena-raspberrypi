@@ -1,4 +1,21 @@
 - commits:
+    - subject: update balena-yocto-scripts and local.conf sample for supervisor tags
+      hash: 172d9fa46bd76c4fa5a59f2a793b5f48efe61f43
+      body: |
+        Also update the the `local.conf` sample file.
+      footer:
+        Changelog-entry: update balena-yocto-scripts and local.conf sample for supervisor tags
+        changelog-entry: update balena-yocto-scripts and local.conf sample for supervisor tags
+        Connects-to: 'balena-os/balena-yocto-scripts#156'
+        connects-to: 'balena-os/balena-yocto-scripts#156'
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Gergely Imreh <gergely@balena.io>
+        signed-off-by: Gergely Imreh <gergely@balena.io>
+      author: Gergely Imreh
+  version: 2.43.0+rev2
+  date: 2019-09-30T11:23:25.763Z
+- commits:
     - subject: Do not enable the vc4-kms-v3d overlay for non-64 bits machines devices
       hash: e2b92c3926e389083f58bc8cf7d4a0476f29ce5b
       body: |

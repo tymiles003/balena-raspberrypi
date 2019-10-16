@@ -1,4 +1,16 @@
 - commits:
+    - subject: Mention Pi Zero W in the raspberrypi.coffee board name
+      hash: 53dacfe442ceb63c20177e893072cf857176576f
+      body: ''
+      footer:
+        Changelog-entry: Mention Pi Zero W in the raspberrypi.coffee board name
+        changelog-entry: Mention Pi Zero W in the raspberrypi.coffee board name
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.43.0+rev7
+  date: 2019-10-16T14:19:55.154Z
+- commits:
     - subject: Update balena-yocto-scripts to v1.4.0
       hash: b2bfd0d885111d26df6381356096f7b99a7fb2d7
       body: ''

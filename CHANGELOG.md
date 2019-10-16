@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.43.0+rev7
+## (2019-10-16)
+
+* Mention Pi Zero W in the raspberrypi.coffee board name [Florin Sarbu]
+
 # v2.43.0+rev6
 ## (2019-10-14)
 

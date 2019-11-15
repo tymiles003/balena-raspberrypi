@@ -1,4 +1,26 @@
 - commits:
+    - subject: 'u-boot: query customer OTP register in rpi3'
+      hash: 87ebbf30e0a9aff4fc84baecbb626846092bfdf1
+      body: |
+        This patch adds support for querying the firmware
+        for one customer OTP register, as an alternative
+        for the case where bootmode register cannot be
+        inspected due to missing TAG implementation in firmware.
+
+        Since documentation does not seem to specify that TAG,
+        asked question in upstream wheter it is available or not.
+
+        This patch is therefore incomplete, will suffer changes
+        and therefore should not be merged as-is.
+      footer:
+        Changelog-entry: 'u-boot: query customer OTP register in rpi3'
+        changelog-entry: 'u-boot: query customer OTP register in rpi3'
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.44.0+rev5
+  date: 2019-11-15T17:02:01.737Z
+- commits:
     - subject: Add warning advising of no WiFi on Pi 2
       hash: 83c9a94ac9fc2cf0991cba0956c488da2a6b96ff
       body: ''

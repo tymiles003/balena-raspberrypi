@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.44.0+rev5
+## (2019-11-15)
+
+* u-boot: query customer OTP register in rpi3 [Alexandru Costache]
+
 # v2.44.0+rev4
 ## (2019-10-29)
 

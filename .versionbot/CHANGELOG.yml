@@ -1,4 +1,24 @@
 - commits:
+    - subject: 'u-boot: Disable flasher check, add usb'
+      hash: a5c68388be4e1199f49daddef330fafe1e73522b
+      body: |
+        By default this comes enabled from
+        meta-balena, but none of the raspberrypi
+        machines generate a flasher image.
+
+        Disabling this allows for adding usb to
+        resin_uboot_device_types without actually
+        starting usb, unless it is confirmed that
+        there's no balena image on the sd-card.
+      footer:
+        Changelog-entry: 'u-boot: Disable flasher check, add usb'
+        changelog-entry: 'u-boot: Disable flasher check, add usb'
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.44.0+rev8
+  date: 2019-12-06T14:56:55.605Z
+- commits:
     - subject: Remove the 64 bits OS reference from the rpi4 device pretty name
       hash: 2fda69b9c1c664386935f30f564a592ad643d5d0
       body: |

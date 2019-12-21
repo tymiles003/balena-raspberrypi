@@ -1,4 +1,18 @@
 - commits:
+    - subject: Backport eth patches from the raspberrypi kernel rpi-5.4.y branch
+      hash: b05a8f3a54ce4aae2721b2db1251d01705aa0f03
+      body: |
+        These patches have been backported from the raspberrypi
+        kernel rpi-5.4.y branch.
+      footer:
+        Changelog-entry: Backport eth patches from the raspberrypi kernel rpi-5.4.y branch
+        changelog-entry: Backport eth patches from the raspberrypi kernel rpi-5.4.y branch
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.44.0+rev11
+  date: 2019-12-21T14:12:30.710Z
+- commits:
     - subject: >-
         Update the BSP layer to latest warrior in order to have newer wifi
         firmware
